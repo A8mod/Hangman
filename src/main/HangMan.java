@@ -14,6 +14,7 @@ public class HangMan
 
         StringBuffer word;
 
+
         try {
             word = new StringBuffer(br.readLine());
             System.out.println("your word is"+word);
